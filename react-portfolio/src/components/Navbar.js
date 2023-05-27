@@ -1,15 +1,18 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 
 
-// const navBarStyles = {
-//     navStyle: {
-//         background: 'red',
-//         justifyContent: 'flex-end',
-//         display: 'flex'
-//     }
 
-// };
+
+
+const navBarStyles = {
+    navStyle: {
+        background: 'blue',
+        justifyContent: 'flex-end',
+        display: 'flex'
+    }
+
+};
 
 function Navbar() {
     return (
