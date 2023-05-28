@@ -1,17 +1,17 @@
 import React from "react";
 // import Footer from "./components/Footer";
 // import Header from "./components/Header";
-import NavBar from "./components/Navbar";
-import Project from "./components/ProjectContainer";
+import Header from "./components/Navbar";
+import Projects from "./components/ProjectContainer";
 import './App.css';
 
 
 function App() {
     return (
         <div>
-            <NavBar />
+            <Header />
             {/* <Header /> */}
-            <Project />
+            <Projects />
             {/* <Footer /> */}
         </div>
     );
