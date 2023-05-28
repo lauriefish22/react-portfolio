@@ -1,31 +1,20 @@
 import React from 'react';
 
 
-
-
-
-
-
-
-
-function Navbar() {
+function Header({ currentPage, handlePageChange }) {
     return (
-        <nav className='navbar'>
-            <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul className="navbar-nav mr-auto">
-                    <li className="nav-item active">
-                        <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
-                    </li>
+        <ul className='nav nav-tabs' id='navbar'>
+            <li className='nav-item'>
 
-
-                    <li className="nav-item active">
-                        <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
-                    </li>
-                    <a href='/'>NAVBAR</a>
-                </ul>
-            </div>
-        </nav>
-    );
+                <a href="#home" onClick={() => handlePageChange('Home')} className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>
+                    Home</a>
+            </li>
+            <li className='nav-item'>
+                <a href="#about" onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>
+                    About Me</a>
+            </li>
+        </ul>
+    )
 }
 
-export default Navbar;
+export default Header;
