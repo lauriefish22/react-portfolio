@@ -3,8 +3,20 @@
     height: 60px;
     display: 'flex';
     justify-content: center;
+    text-align: center;
 }
-.main {
+/* .main {
     display: flex;
     flex-wrap: wrap;
+} */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+h1 {
+    text-align: center;
+}
+.nav-item active {
+    text-align: center;
 }
