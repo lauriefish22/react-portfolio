@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import handle from '../images/handle.png';
 import { CardBody, CardTitle, CardSubtitle, CardText, Button, Card } from 'reactstrap';
 // import { Container, Row, Col } from 'reactstrap';

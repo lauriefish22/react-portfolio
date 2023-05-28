@@ -1,0 +1,20 @@
+import React from 'react';
+
+
+function Header({ currentPage, handlePageChange }) {
+    return (
+        <ul className='nav nav-tabs' id='navbar'>
+            <li className='nav-item'>
+
+                <a href="#about" onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>
+                    Home</a>
+            </li>
+            <li className='nav-item'>
+                <a href="#project" onClick={() => handlePageChange('Project')} className={currentPage === 'Project' ? 'nav-link active' : 'nav-link'}>
+                    Project</a>
+            </li>
+        </ul>
+    )
+}
+
+export default Header;
