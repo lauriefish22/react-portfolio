@@ -5,7 +5,7 @@ import { CardBody, CardTitle, CardSubtitle, CardText, Button, Card } from 'react
 import { Container, Row, Col } from 'react-bootstrap';
 import "../App.css";
 
-function Cards() {
+export default function Cards() {
     return (
         <Container className='all-projects'>
             <div className='header'>
@@ -156,4 +156,3 @@ function Cards() {
 
     )
 }
-export default Cards;

@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 // import Footer from "./components/Footer";
 // import Header from "./components/Header";
-import NavTabs from "./Navtabs";
+import NavTabs from './Navtabs';
+// import './App.css';
 
-import Contact from './Pages/Contact.js'
+import Contact from './Pages/Contact';
 import Project from './Pages/Project';
 import Resume from './Pages/Resume';
 import About from './Pages/About';
