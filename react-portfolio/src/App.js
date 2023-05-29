@@ -1,6 +1,7 @@
 
 import './App.css';
 import PortfolioContainer from "./components/PortfolioContainer.js";
+import './style.css';
 
 function App() {
     return (
