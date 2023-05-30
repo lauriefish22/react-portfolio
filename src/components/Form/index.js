@@ -1,0 +1,1 @@
+window.React1 = require('react');
