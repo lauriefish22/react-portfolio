@@ -1,19 +1,8 @@
 #navbar {
     background: blue;
     height: 60px;
+
     /* display: 'flex'; */
-}
-/* .main {
-    display: flex;
-    flex-wrap: wrap;
-} */
-.projects {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-h1 {
-    text-align: center;
 }
 
 .nav-item {
@@ -30,13 +19,14 @@ h1 {
 a.nav-link {
     color: white;
 }
-body {
+/* body {
     margin: 0;
-    background: lightgray;
+    /* background: lightgray; */
+/* background: red;
     text-align: center;
     font-family: sans-serif;
-    color: #fefefe;
-}
+    color: #fefefe; */
+
 .container {
     position: relative;
     width: 320px;

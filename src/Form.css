@@ -1,3 +1,24 @@
+/* body {
+    background-color: #d1f3e7;
+}
+
+#title-Tag-Line {
+    font-size: 20px;
+} */
+/* .card-item__bg{
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    display: block;
+    position: relative;
+    margin: 30px auto;
+    transform: translate(0px, 50px);
+    z-index: 5;
+  } */
+
+/* form animation starts */
 .form {
     background: #fff;
     box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
@@ -37,7 +58,7 @@
 }
 
 .name {
-    background-color: #ebebeb;
+    background-color: black;
     color: white;
 }
 .name:hover {
