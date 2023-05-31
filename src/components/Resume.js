@@ -5,14 +5,14 @@ export default function ResumeContent() {
     return (
 
 
-        <div class="wrapper clearfix">
-            <div class="left">
+        <div className="wrapper clearfix">
+            <div className="left">
 
-                <div class="name-hero">
+                <div className="name-hero">
 
-                    <div class="me-img"></div>
+                    <div className="me-img"></div>
 
-                    <div class="name-text">
+                    <div className="name-text">
 
                         <h1>Anthony <em>Adamski</em></h1>
                         <p>10 Iroquois St Boston, MA 02120</p>
@@ -24,9 +24,9 @@ export default function ResumeContent() {
                 </div>
 
             </div>
-            <div class="right">
+            <div className="right">
 
-                <div class="inner">
+                <div className="inner">
                     <section>
                         <h1>Employment</h1>
                         <p>Winter 2015 - Present <em>Grand Interactive, llc. | Mobile App Developer</em></p>
@@ -40,7 +40,7 @@ export default function ResumeContent() {
                     </section>
                     <section>
                         <h1>Technical Skills</h1>
-                        <ul class="skill-set">
+                        <ul className="skill-set">
                             <li>Mobile Development</li>
                             <li>Xamarin</li>
                             <li>CSS3</li>
@@ -64,7 +64,7 @@ export default function ResumeContent() {
                     </section>
                     <section>
                         <h1>Personal Interests</h1>
-                        <ul class="skill-set">
+                        <ul className="skill-set">
                             <li>Faith</li>
                             <li>Biblical Studies</li>
                             <li>Playing Guitar</li>
@@ -74,7 +74,7 @@ export default function ResumeContent() {
                         </ul>
                     </section>
                     <section>
-                        <div class="handmade">
+                        <div className="handmade">
                             <p>handmade by <em> Anthony Adamski</em></p>
                         </div>
                     </section>

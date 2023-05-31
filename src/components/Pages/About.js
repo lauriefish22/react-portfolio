@@ -1,14 +1,16 @@
 import React from 'react';
+import '../../About.css'
 
 
 
 export default function About() {
     return (
+
         <div className="container-fluid px-2 px-md-4 py-5 mx-auto" id="test">
             <div className="row d-flex justify-content-center">
                 <div className="col-md-10 col-lg-9 col-xl-8">
                     <div className="card card-main border-0 text-center">
-                        <h5 className="font-weight-bold mb-4">All about me</h5>
+                        <h5 className="font-weight-bold mb-4" id='me'>All about me</h5>
                         <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
                             <p>All about me</p>
                             <div className="carousel-inner">
@@ -32,5 +34,6 @@ export default function About() {
                 </div>
             </div>
         </div>
+
     )
 }
