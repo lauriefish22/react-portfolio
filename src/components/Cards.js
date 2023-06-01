@@ -3,21 +3,39 @@ import React from 'react';
 
 // import { Container, Row, Col } from 'reactstrap';
 
-import "../App.css";
+import "../Cards.scss";
 
 export default function Cards() {
     return (
+
+
         <div class="container">
-            <div class="carousel">
+            <div class="cards">
+                <div class="card card-one">
+                    <h2 class="card-title">Card One</h2>
+                    <p class="date">May 25, 2021</p>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores alias ut veniam?</p>
+                </div>
 
-                <div class="carousel__face"><span>Very special</span></div>
-                <div class="carousel__face"><span>Special is the key</span></div>
-                <div class="carousel__face"><span>For you</span></div>
-                <div class="carousel__face"><span>Just give it</span></div>
-                <div class="carousel__face"><span>A try</span></div>
-                <div class="carousel__face"><span>And see</span></div>
+                <div class="card card-two">
+                    <h2 class="card-title">Card Two</h2>
+                    <p class="date">May 26, 2021</p>
+                    <p class="description">If you read carefully, you'll find that this is not your typical lorem ipsum.</p>
+                </div>
 
+                <div class="card card-three">
+                    <h2 class="card-title">Card Three</h2>
+                    <p class="date">May 27, 2021</p>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores alias ut veniam?</p>
+                </div>
+
+                <div class="card card-four">
+                    <h2 class="card-title">Card Four</h2>
+                    <p class="date">May 28, 2021</p>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores alias ut veniam?</p>
+                </div>
             </div>
         </div>
+
     )
 }

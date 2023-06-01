@@ -4,6 +4,7 @@ import Contact from './Pages/Contact';
 import Project from './Pages/Project';
 import Resume from './Pages/Resume';
 import About from './Pages/About';
+import Header from './Header.js';
 
 
 
@@ -28,7 +29,7 @@ export default function PortfolioContainer() {
     return (
         <div>
             <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-
+            <Header currentPage={currentPage} handlePageChange={handlePageChange} />
 
             {renderPage()}
         </div>

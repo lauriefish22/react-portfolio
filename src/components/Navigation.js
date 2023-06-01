@@ -1,11 +1,11 @@
 import React from 'react';
-
+import '../Navigation.css';
 
 export default function NavTabs({ currentPage, handlePageChange }) {
     return (
 
 
-        <ul className="navbar navbar-expand">
+        <ul className="navbar navbar-expand" id='words'>
             <li className='nav-item'>
 
                 <a href="#about" onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>

@@ -10,6 +10,7 @@ function App() {
         <div className='portfolio'>
 
             <PortfolioContainer />
+
         </div>
     );
 }
