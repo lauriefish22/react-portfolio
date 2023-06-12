@@ -1,5 +1,5 @@
 import React from 'react';
-// import handle from '../images/handle.png';
+import forget from '../images/forget.png';
 
 // import { Container, Row, Col } from 'reactstrap';
 
@@ -12,8 +12,9 @@ export default function Cards() {
         <div class="container">
             <div class="cards">
                 <div class="card card-one">
-                    <h2 class="card-title">Card One</h2>
-                    <p class="date">May 25, 2021</p>
+                    <img src={forget} alt='forget'></img>
+                    <h2 class="card-title">Don't Forget</h2>
+                    <p class="date">April 25, 2023</p>
                     <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores alias ut veniam?</p>
                 </div>
 
@@ -23,14 +24,15 @@ export default function Cards() {
                     <p class="description">If you read carefully, you'll find that this is not your typical lorem ipsum.</p>
                 </div>
 
-                <div class="card card-three">
+                <div class="card card-three" id='forget'>
+
                     <h2 class="card-title">Card Three</h2>
                     <p class="date">May 27, 2021</p>
                     <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores alias ut veniam?</p>
                 </div>
 
                 <div class="card card-four">
-                    <h2 class="card-title">Card Four</h2>
+                    <h2 class="card-title">Don't Forget</h2>
                     <p class="date">May 28, 2021</p>
                     <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores alias ut veniam?</p>
                 </div>

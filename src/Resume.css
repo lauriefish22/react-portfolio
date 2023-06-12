@@ -11,32 +11,32 @@ div {
     border-radius: 5px;
 }
 
-#header {
+/* #header {
     height: 40px;
     width: 100%;
     background-color: #ffcccc;
-    position: fixed;
+    position: sticky;
     z-index: 1;
-}
+} */
 
 #title {
     margin-left: 3%;
 }
 
-#footer {
+/* #footer {
     height: 50px;
     width: 100%;
     background-color: #ffcccc;
     clear: both;
     position: relative;
-}
+} */
 
 .left2 {
     height: 1000px;
-    width: 45px;
-    background-color: #e0eeee;
+    width: 15px;
+    background-color: blue;
     float: left;
-    position: fixed;
+    position: sticky;
 }
 
 .right2 {

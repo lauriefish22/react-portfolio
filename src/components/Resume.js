@@ -1,5 +1,6 @@
 import React from 'react';
 import '../Resume.css';
+import resume from './../files/resume.pdf'
 
 export default function ResumeContent() {
     return (
@@ -7,31 +8,33 @@ export default function ResumeContent() {
             <><div id="header"></div><div className="left2"></div><div className="stuff">
                 <br />
                 <h1>Resume</h1>
-                <h2>Emily</h2>
+                <h2>Laurie Fish</h2>
                 <hr />
+                <a
+                    href={resume}
+                    download="LaurieFish-Resume"
+                    target="_blank"
+                    rel="noreferrer"
+                > Download: Laurie Fish's Resume</a>
                 <br />
-                <p className="head">Interests</p>
-                <ul>
-                    <li>Drawing</li>
-                    <li>Photography</li>
-                    <li>Design</li>
-                    <li>Programming</li>
-                    <li>Computer Science</li>
-                </ul>
                 <p className="head">Skills</p>
                 <ul>
-                    <li>Web Design with HTML & CSS</li>
+                    <li> HTML & CSS</li>
+                    <li> JAVASCRIPT</li>
+                    <li> MONGO DB</li>
+                    <li> MYSQL</li>
+                    <li> GRAPHQL</li>
                 </ul>
                 <p className="head">Education</p>
                 <ul>
-                    <a href="http://www.wiltonhighschool.org/pages/Wilton_High_School">
-                        <li>Wilton High School</li>
-                    </a>
+
+                    <li>UC BERKELEY EXT. FULL STACK Developer</li>
+
                     {/* Link */}
-                    <a href="https://www.silvermineart.org/">
-                        <li>Silvermine School of Arts</li>
-                    </a>
-                    <li>Codeacademy</li>
+
+                    <li>ST.CLOUD STATE UNIVERSITY </li>
+
+
                 </ul>
                 <p className="head">Experience</p>
                 <ul>

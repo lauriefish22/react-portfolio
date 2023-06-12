@@ -8,12 +8,12 @@ export default function Header() {
             <div id="gradient"></div>
             <div id="card">
                 <img src='https://images.pexels.com/photos/1258865/pexels-photo-1258865.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' alt='cat' />
-                <h2>Ondřej Page Bárta</h2>
-                <p>Student of IT in Czech republic.</p>
-                <p>Interested in Web technologies like HTML5, CSS3, JavaScript, PHP, MySQL, etc.</p>
-                <p>Love Codepen.io and respect Chris Coyier. ;)</p>
-                <span className="left bottom">tel: 731 366 ***</span>
-                <span className="right bottom">address: Czech Republic</span>
+                <h2>Laurie Fish</h2>
+                <p>Full Stack Developer</p>
+                <p>HTML, CSS, JavaScript, React, MySQL, MongoDB, GraphQL</p>
+                <p></p>
+                <span className="left bottom">iamlauriefish@gmail.com</span>
+                <span className="right bottom"></span>
             </div>
         </div>
     )

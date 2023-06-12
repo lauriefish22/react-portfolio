@@ -92,3 +92,11 @@ body {
 .cards:hover > .card:not(:hover) {
     opacity: 0.5;
 }
+// #forget {
+//     background-image: url(./forget.png);
+// }
+img {
+    height: 100px;
+    width: 190px;
+    position: relative;
+}
