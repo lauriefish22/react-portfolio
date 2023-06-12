@@ -54,11 +54,11 @@
     font-weight: bold;
 }
 .secondaryTitle {
-    color: grey;
+    color: #dab046;
 }
 
 .name {
-    background-color: black;
+    background-color: #dab046;
     color: white;
 }
 .name:hover {

@@ -1,10 +1,37 @@
 import React from 'react';
-// import '../../About.css'
+import '../../about.scss';
+// import Pic from '../../images/Pic.jpeg';
 
-export default function About () {
+export default function About() {
     return (
         <div>
-            hello
+            <div id="login-container">
+                <div class="profile-img">
+                    {/* <img src={Pic} alt='pic'></img> */}
+                </div>
+                <h1>
+                    Laurie
+                </h1>
+                <div class="description">
+                    Laurie is a front end web developer in Portland, OR. Check out her projects in the links below.
+                </div>
+                <div class="social">
+                    <a href='https://github.com/lauriefish22'>GitHub</a>
+
+                    <a href='https://www.linkedin.com/in/laurie-fish-53811320/'>LinkedIn</a>
+                </div>
+                <button>Hire Me</button>
+                <footer>
+                    {/* <div class="likes">
+                        <p><i class='fa fa-heart'></i></p>
+                        <p>1.5K</p>
+                    </div>
+                    <div class="projects">
+                        <p>Projects</p>
+                        <p>154</p>
+                    </div> */}
+                </footer>
+            </div>
         </div>
     )
 }

@@ -41,7 +41,7 @@ body {
 #gradient:after {
     content: '';
     position: absolute;
-    background: #e9e2d0;
+    background: #961a39;
     left: 50%;
     margin-top: -47.5px;
     /* margin-left: -270px; */
@@ -63,7 +63,8 @@ body {
     left: 50%;
     top: 36.5px;
     margin-left: -580px;
-    background: #e9e2d0;
+    background: rgb(246, 240, 240);
+    /* background: #e9e2d0; */
     box-shadow: -20px 0 35px -25px black, 20px 0 35px -25px black;
     z-index: 5;
     margin-top: 20px;

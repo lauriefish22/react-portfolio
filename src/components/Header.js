@@ -7,7 +7,7 @@ export default function Header() {
         <div>
             <div id="gradient"></div>
             <div id="card">
-                <img src='https://images.pexels.com/photos/1258865/pexels-photo-1258865.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' alt='cat' />
+
                 <h2>Laurie Fish</h2>
                 <p>Full Stack Developer</p>
                 <p>HTML, CSS, JavaScript, React, MySQL, MongoDB, GraphQL</p>

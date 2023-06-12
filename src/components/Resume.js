@@ -10,7 +10,7 @@ export default function ResumeContent() {
                 <h1>Resume</h1>
                 <h2>Laurie Fish</h2>
                 <hr />
-                <a
+                <a id='link'
                     href={resume}
                     download="LaurieFish-Resume"
                     target="_blank"
@@ -34,22 +34,17 @@ export default function ResumeContent() {
 
                     <li>ST.CLOUD STATE UNIVERSITY </li>
 
+                </ul>
 
-                </ul>
-                <p className="head">Experience</p>
-                <ul>
-                    <li>Student Technology Intern for Wilton School District</li>
-                    <li>Babysitter</li>
-                </ul>
-                <p className="head">Extracurriculars</p>
-                <ul>
-                    <li>Recycling Club</li>
-                    <li>Gardening Club</li>
-                    <li>Book Club</li>
-                </ul>
+
+                <h1 className="head"> Experience</h1>
+                <p> Built, owned, and operated a successful brick-and-mortar fitness organization and brand from the ground-up. Designed initiatives and programming to support clients’ performance objectives and individual goals, constantly adjusting to meet the interest of the consumer. After fifteen years of ownership and management, oversaw transition of business to new ownership allowing me to focus on developing new skills and abilities to meet my personal interest.</p>
+
+
+
             </div><div className="right2"></div><div id="footer">
-                    <h2 id="name">Emily</h2>
+
                 </div></>
-        </div>
+        </div >
     )
 }
